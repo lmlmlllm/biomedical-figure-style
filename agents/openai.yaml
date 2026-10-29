@@ -1,0 +1,4 @@
+interface:
+  display_name: "医学综述图设计 · 公开核心版"
+  short_description: "通用布局与配色、公共综述参考查询、图文逻辑与结构检查工具"
+  default_prompt: "请使用 $biomedical-figure-style，根据我的内容选择合适的布局与配色，并检查图文逻辑；使用当前可用的绘图工具完成我要求的产物。"

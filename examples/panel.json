@@ -1,0 +1,51 @@
+{
+  "schema": "synthetic-release-example.v1",
+  "semantics": {
+    "claim": "Synthetic illustration of association; no biological claim.",
+    "entities": [
+      {
+        "id": "a",
+        "label": "Concept A",
+        "state": "illustrative",
+        "compartment": "synthetic",
+        "system": "synthetic"
+      },
+      {
+        "id": "b",
+        "label": "Concept B",
+        "state": "illustrative",
+        "compartment": "synthetic",
+        "system": "synthetic"
+      }
+    ],
+    "relations": [
+      {
+        "id": "r1",
+        "source": "a",
+        "target": "b",
+        "type": "association",
+        "condition": "illustrative only",
+        "system": "synthetic",
+        "evidence": "synthetic example, no empirical data",
+        "source_location": "this example",
+        "figure_location": "r1",
+        "alignment": "uncertain"
+      }
+    ]
+  },
+  "visual": {
+    "nodes": {
+      "a": {
+        "fill": "#EAF3FA"
+      },
+      "b": {
+        "fill": "#EEE8F5"
+      }
+    },
+    "edges": {
+      "r1": {
+        "color": "#243247"
+      }
+    }
+  }
+}

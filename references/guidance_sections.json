@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "description": "Public core generic guidance only; historical appendices excluded.",
+  "defaults": {
+    "logic": {
+      "source": "references/figure_logic_CN.md",
+      "segments": [
+        {
+          "start": "BOF",
+          "end": "EOF",
+          "sha256": "22581c27c2430112cdec317997e40d152e0e460621aaeeec79133da5bb1f5700"
+        }
+      ]
+    },
+    "layouts": {
+      "source": "references/layouts_CN.md",
+      "segments": [
+        {
+          "start": "BOF",
+          "end": "EOF",
+          "sha256": "a274396b449b0f328c229892c86db073e6421972b0171c1f2b23f265cae5a520"
+        }
+      ]
+    },
+    "style": {
+      "source": "references/visual_style_CN.md",
+      "segments": [
+        {
+          "start": "BOF",
+          "end": "EOF",
+          "sha256": "3a6197fab73c6cf178c90c1b3fab4718345c4583d9546e850a5f260fac34bdca"
+        }
+      ]
+    }
+  },
+  "cases": []
+}
